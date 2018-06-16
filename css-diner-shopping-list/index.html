@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dinner Ssopping List</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="icon" type="image/png" href="http://flukeout.github.io/favicon.png">
+</head>
+<body>
+	<header class="header">
+		<h1>CSS Diner Shopping List</h1>
+		<p>Let's go to the mall!</p>
+	</header>
+
+	<main>
+		<div class="list">
+			<label class="list-item"><input type="checkbox" name="pickles">A lot of pickles<span class="description">for the next lessons about CSS</span></label>
+			<label class="list-item"><input type="checkbox" name="apples">10 apples<span class="description">for more CSS manipulations</span></label>
+			<label class="list-item"><input type="checkbox" name="oranges">20 oranges <span class="description">because they are awesome</span></label>
+			<label class="list-item"><input type="checkbox" name="plates">13 plates<span class="description">hmm... they always dissapear</span></label>
+			<label class="list-item"><input type="checkbox" name="bentos">15 bentos</label>
+			<label class="list-item"><input type="checkbox" name="sake">1 bottle of Sake ^_^<span class="description">for my friends</span></label>
+		</div> 
+
+		<!-- С первым вариантом не срабатывало зачеркивание при выборе чекбокса. Попробовала не заворачивать инпут в лейбл, но оказалось, что все стили списка полетели и тогда их все пришлось бы переписывать. Вернулась к первому варианту.
+
+
+		<div class="list">
+			<input type="checkbox" name="pickles" id="pickles" class="list-item">
+			<label for="pickles">A lot of pickles<span class="description">for the next lessons about CSS</span></label>
+			
+			<input type="checkbox" name="apples" id="apples" class="list-item">
+			<label for="apples">10 apples<span class="description">for more CSS manipulations</span></label>
+			
+			<input type="checkbox" name="oranges" id="oranges"  class="list-item">
+			<label for="oranges">20 oranges <span class="description">because they are awesome</span></label>
+
+			<input type="checkbox" name="plates" id="plates" class="list-item">
+			<label for="plates">13 plates<span class="description">hmm... they always dissapear</span></label>
+
+			<input type="checkbox" name="bentos" id="bentos" class="list-item">
+			<label for="bentos">15 bentos</label>
+			
+			<input type="checkbox" name="sake" id="sake" class="list-item">
+			<label for="sake">1 bottle of Sake ^_^<span class="description">for my friends</span></label>
+		</div> -->
+
+			<input type="button" value="Bon appetit :)">
+		
+	</main>
+	
+</body>
+</html>
